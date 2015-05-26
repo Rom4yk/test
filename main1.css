@@ -1,0 +1,117 @@
+@font-face {
+    font-family: ex;
+    src: url(ex.woff2); 
+}
+
+@font-face {
+    font-family: loto;
+    src: url(loto.woff2);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.header {
+    height: 350px;
+    background-color: #fff;
+}
+
+.nav {
+    height: 50px;
+    background-color: #444;
+}
+
+.center {
+    margin-bottom: 50px;
+}
+
+a.logo, a:hover.logo {
+    background-color: #444;
+    font-family: "ex";
+    font-size: 26px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: black;
+}
+
+
+
+
+
+span {
+    color: #0099da;
+}
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    float: left;
+}
+
+a {
+    color: #fff;
+    font-family: "loto";
+    font-size: 16px;
+    padding-top: 16px;
+    padding-right: 21px;
+    padding-left: 21px;
+}
+
+
+
+a:link {
+    display: block;
+    /*width: 120px;*/
+    height: 50px;
+    background-color: #444;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a:hover {
+    background-color: #0099da;
+}
+
+
+
+.main {
+    position: relative;
+}
+
+
+.ex1 {
+    position: absolute;
+    min-height: 600px;
+    left: 0;
+    width: 220px;
+    background-color: #555;
+    
+}
+
+.ex2 {
+    position: absolute;
+    min-height: 600px;
+    left:220px;
+    right: 300px;
+    background-color: #111;
+}
+    
+
+.ex3 {
+    position: absolute;
+    min-height: 600px;
+    right:0;
+    width: 300px;
+    background-color: #ddd;
+}
